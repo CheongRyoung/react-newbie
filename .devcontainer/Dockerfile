@@ -1,11 +1,11 @@
 # 기본 이미지로 Node.js 사용
-FROM node:latest
+FROM node:21
 
 # 작업 디렉터리 설정
 WORKDIR /app
 
 # 리안트 프로젝트를 여기에 복사
-COPY . .
+COPY .. .
 
 # 의존성 설치
 RUN npm install
