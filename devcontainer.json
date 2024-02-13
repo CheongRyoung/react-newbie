@@ -1,0 +1,10 @@
+{
+    "name": "Node.js with React Dev Container",
+    "dockerFile": "Dockerfile",
+
+    // 추가: 리액트 개발 서버 포트를 포워딩합니다.
+    "forwardPorts": [3000],
+
+    // 추가: 컨테이너 내에서 작업 디렉터리를 설정합니다.
+    "workspaceFolder": "/app"
+}
